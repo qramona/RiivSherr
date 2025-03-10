@@ -1,0 +1,305 @@
+a{
+    color: black;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 100%;
+    width: 1600px;
+    justify-self: center;
+}
+.header__wrapper{
+    display: flex;
+    flex-direction: row;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+.header__nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+
+}
+.header__ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+}
+.header__li{
+
+}
+.header__li a{
+
+}
+.button-up{
+
+}
+.up-img{
+    display: none;
+}
+.down-img{
+
+}
+.header__input{
+    border: none;
+    border-bottom: black solid 1px;
+    background: url("/Users/yuliiapodlutskaia/module-arc/src/assets/icons/Loup.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.burger__menu{
+    display: flex;
+    align-items: center;
+}
+.CloseLogo, .BurgerLogo{
+    display: none;
+}
+
+@media screen and (min-width: 1600px) {
+
+    header{
+
+    }
+    .header__wrapper{
+
+    }
+    .Logo{
+
+    }
+    .header__nav{
+
+
+    }
+    .header__ul{
+
+    }
+    .header__li{
+
+    }
+    .header__li a{
+
+    }
+    .button-up{
+
+    }
+    .up-img{
+
+    }
+    .down-img{
+
+    }
+    .header__input{
+
+    }
+
+}
+
+@media screen and (max-width: 1600px) {
+
+    header{
+
+    }
+    .header__wrapper{
+
+    }
+    .Logo{
+
+    }
+    .header__nav{
+
+
+    }
+    .header__ul{
+
+    }
+    .header__li{
+
+    }
+    .header__li a{
+
+    }
+    .button-up{
+
+    }
+    .up-img,.down-img{
+
+    }
+    .up-img{
+
+    }
+    .down-img{
+
+    }
+    .header__input{
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    header{
+
+    }
+    .header__wrapper{
+
+    }
+    .Logo{
+
+    }
+    .header__nav{
+
+
+    }
+    .header__ul{
+
+    }
+    .header__li{
+
+    }
+    .header__li a{
+        font-size: 12px;
+    }
+    .button-up{
+
+    }
+    .up-img{
+
+    }
+    .down-img{
+
+    }
+    .header__input{
+
+    }
+}
+@media screen and (max-width: 992px) {
+
+    header{
+
+    }
+    .header__wrapper{
+
+    }
+    .Logo{
+
+    }
+    .header__nav{
+
+
+    }
+    .header__ul{
+
+    }
+    .header__li{
+
+    }
+    .header__li a{
+        font-size: 10px;
+    }
+    .button-up{
+
+    }
+    .up-img,.down-img{
+        width: 11px;
+    }
+    .up-img{
+
+    }
+    .down-img{
+
+    }
+    .header__input{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+    header{
+
+    }
+    .header__wrapper{
+
+    }
+    .Logo{
+
+    }
+    .header__nav{
+
+
+    }
+    .header__ul{
+
+    }
+    .header__li{
+        display: none;
+    }
+    .header__li a{
+
+    }
+    .button-up{
+
+    }
+    .up-img{
+
+    }
+    .down-img{
+
+    }
+    .header__input{
+        display: flex;
+    }
+    .input{
+        display: flex;
+        width: 30dvh;
+    }
+
+     .BurgerLogo{
+        display: flex;
+        align-items: center;
+    }
+
+}
+@media screen and (max-width: 576px) {
+
+    header{
+
+    }
+    .header__wrapper{
+
+    }
+    .Logo{
+
+    }
+    .header__nav{
+
+
+    }
+    .header__ul{
+
+    }
+    .header__li{
+
+    }
+    .header__li a{
+
+    }
+    .button-up{
+
+    }
+    .up-img{
+
+    }
+    .down-img{
+
+    }
+    .header__input{
+
+    }
+}

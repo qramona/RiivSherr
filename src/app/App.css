@@ -1,0 +1,16 @@
+body{
+    font-family: 'Inter',sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+button{
+    background: transparent;
+    border: none;
+}
+input{
+    outline: none;
+}
