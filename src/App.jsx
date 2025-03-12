@@ -5,12 +5,13 @@ import Header from "./components/Layouts/Header/Header"
 import Admin from "./pages/AdminsPage/Admin.jsx";
 
 
-
 function App() {
 
   return (
     <Router>
-        <Route path="/" element={<Admin />} />
+        <Routes>
+            <Route path="/" element={<Admin />} />
+        </Routes>
     </Router>
 
 
