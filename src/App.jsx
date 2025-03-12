@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './app/App.css'
 import Header from "./components/Layouts/Header/Header"
 import Admin from "./pages/AdminsPage/Admin.jsx";
@@ -8,9 +9,9 @@ import Admin from "./pages/AdminsPage/Admin.jsx";
 function App() {
 
   return (
-    <>
-        <Admin></Admin>
-    </>
+    <Router>
+        <Route path="/" element={<Admin />} />
+    </Router>
 
 
   )
