@@ -14,9 +14,7 @@ function App() {
         </Routes>
     </Router>
 
-
   )
-
 
 }
 

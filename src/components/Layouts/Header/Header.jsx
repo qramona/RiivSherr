@@ -1,6 +1,7 @@
 import Logo from "../../../assets/icons/Logo.png";
 import Up from "../../../assets/icons/Up.png";
 import Down from "../../../assets/icons/Down.png";
+import "../../../components/BurgerMenu/Burger.css";
 import BurgerLogo from "../../../assets/buttons/BurgerLogo.png";
 import CloseLogo from "../../../assets/buttons/CloseLogo.png";
 import "./Header.css";
@@ -52,8 +53,9 @@ function Header(){
                         <a href="src/components/Layouts/Header#">Личный кабинет</a>
                     </li>
                 </ul>
+                <Burger></Burger>
             </nav>
-            <Burger></Burger>
+
         </header>
     )
 }

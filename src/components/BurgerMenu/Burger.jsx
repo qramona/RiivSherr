@@ -26,18 +26,39 @@ const burgerLogoRef = useRef(null);
             <div
                 className="CloseLogo"
                 ref={closeBurgerRef}
-                // style={{ display: isBurgerVisible ? "none" : "flex" }}
+                style={{ display: isBurgerVisible ? "none" : "flex" }}
                 onClick={handleCloseClick}
             >
-                useEffect(()
                 <img src={CloseLogo} alt="CloseLogo" />
+                <div className="BurgerItems">
+                    <ul>
+                        <li className="BurgerItems-li">
+                            <a href="#">Услуги</a>
+                        </li>
+                        <li className="BurgerItems-li">
+                            <a href="#">Расписание</a>
+                        </li>
+                        <li className="BurgerItems-li">
+                            <a href="#">О нас</a>
+                        </li>
+                        <li className="BurgerItems-li">
+                            <a href="#">Контакты</a>
+                        </li>
+                        <li className="BurgerItems-li">
+                            <a href="#">Новости</a>
+                        </li>
+                        <li className="BurgerItems-li">
+                            <a href="#">Личный кабинет</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
             {/* Бургер */}
             <div
                 className="BurgerLogo"
                 ref={burgerLogoRef}
-                // style={{ display: isBurgerVisible ? "flex" : "none" }}
+                style={{ display: isBurgerVisible ? "flex" : "none" }}
                 onClick={handleBurgerClick}
             >
                 <img src={BurgerLogo} alt="BurgerLogo" />

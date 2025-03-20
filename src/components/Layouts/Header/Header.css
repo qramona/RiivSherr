@@ -55,8 +55,7 @@ header{
     background-position: right;
 }
 .burger__menu{
-    display: flex;
-    align-items: center;
+    display: none;
 }
 .CloseLogo, .BurgerLogo{
     display: none;
@@ -259,11 +258,43 @@ header{
         display: flex;
         width: 30dvh;
     }
+    .burger__menu{
+        display: flex;
+        align-items: center;
+        /*position: relative;*/
+    }
 
      .BurgerLogo{
         display: flex;
         align-items: center;
+
     }
+     .CloseLogo{
+         flex-direction: column;
+         /*position: absolute;*/
+         align-self: center;
+         margin: 0 -2em;
+
+     }
+     .CloseLogo>img{
+         height: 30px;
+         width: 30px;
+         z-index: 10;
+     }
+     .BurgerItems{
+         height: 100dvh;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         justify-self: center;
+         position: absolute;
+         left: 0;
+         background: #606169;
+         width: 100%;
+     }
+     .BurgerItems-li{
+         padding: 0.5em 0;
+     }
 
 }
 @media screen and (max-width: 576px) {
