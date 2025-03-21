@@ -52,7 +52,7 @@ header{
     border-bottom: black solid 1px;
     background: url("/Users/yuliiapodlutskaia/module-arc/src/assets/icons/Loup.png");
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: right;padding-right: 2em;
 }
 .burger__menu{
     display: none;
@@ -253,10 +253,11 @@ header{
     }
     .header__input{
         display: flex;
+        padding-right: 2em;
     }
     .input{
         display: flex;
-        width: 30dvh;
+        width: 25dvh;
     }
     .burger__menu{
         display: flex;
@@ -279,6 +280,7 @@ header{
      .CloseLogo>img{
          height: 30px;
          width: 30px;
+         padding: 1em 0;
          z-index: 10;
      }
      .BurgerItems{
@@ -288,14 +290,20 @@ header{
          justify-content: center;
          justify-self: center;
          position: absolute;
+         text-align: center;
          left: 0;
          background: #606169;
          width: 100%;
      }
      .BurgerItems-li{
          padding: 0.5em 0;
+         transition: 0.5s;
      }
 
+     .BurgerItems-li:hover{
+         opacity: 0.3;
+         border-bottom: solid 2px black;
+     }
 }
 @media screen and (max-width: 576px) {
 
