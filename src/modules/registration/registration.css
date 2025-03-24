@@ -1,0 +1,182 @@
+.registration{
+
+}
+.registration__wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.register__form{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background: #EFEFEF;
+    width: 35dvw;
+}
+.register__input{
+    margin: 0.5em 0;
+    padding: 1em;
+    background: rgba(201, 201, 201, 100%);
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.register__btn{
+    background: black;
+    border-radius: 10px;
+    color: #fff;
+    padding: 1em;
+    font-size: 14px;
+    margin: 0.5em;
+    cursor: pointer;
+}
+.alreadyRegistered{
+font-size: 14px;
+}
+.alreadyRegistered>a{
+    font-weight: 300;
+    color: grey;
+}
+.alreadyRegistered>a:hover{
+    border-bottom: solid black 1px;
+}
+@media screen and (min-width: 1600px) {
+
+    .registration{
+
+    }
+    .registration__wrapper{
+
+    }
+    .register__form{
+
+    }
+    .register__input{
+
+    }
+    .register__btn{
+
+    }
+    .alreadyRegistered{
+
+    }
+    .alreadyRegistered>a{
+
+    }
+}
+@media screen and (max-width: 1600px) {
+    .registration{
+
+    }
+    .registration__wrapper{
+
+    }
+    .register__form{
+
+    }
+    .register__input{
+
+    }
+    .register__btn{
+
+    }
+    .alreadyRegistered{
+
+    }
+    .alreadyRegistered>a{
+
+    }
+}
+@media screen and (max-width: 1200px) {
+    .registration{
+
+    }
+    .registration__wrapper{
+
+    }
+    .register__form{
+
+    }
+    .register__input{
+
+    }
+    .register__btn{
+
+    }
+    .alreadyRegistered{
+
+    }
+    .alreadyRegistered>a{
+
+    }
+}
+@media screen and (max-width: 992px) {
+    .registration{
+
+    }
+    .registration__wrapper{
+
+    }
+    .register__form{
+        width: 45dvw;
+    }
+    .register__input{
+
+    }
+    .register__btn{
+
+    }
+    .alreadyRegistered{
+
+    }
+    .alreadyRegistered>a{
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .registration{
+
+    }
+    .registration__wrapper{
+
+    }
+    .register__form{
+        width: 50dvw;
+    }
+    .register__input{
+
+    }
+    .register__btn{
+
+    }
+    .alreadyRegistered{
+
+    }
+    .alreadyRegistered>a{
+
+    }
+}
+@media screen and (max-width: 576px) {
+    .registration{
+
+    }
+    .registration__wrapper{
+
+    }
+    .register__form{
+        width: 70dvw;
+    }
+    .register__input{
+
+    }
+    .register__btn{
+
+    }
+    .alreadyRegistered{
+
+    }
+    .alreadyRegistered>a{
+
+    }
+}

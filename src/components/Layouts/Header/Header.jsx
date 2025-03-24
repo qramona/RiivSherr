@@ -10,7 +10,7 @@ import Burger from "../../BurgerMenu/Burger.jsx";
 function Header(){
     return(
         <header className="Header">
-                    <a className="Logo" href="src/components/Layouts/Header#">
+                    <a className="Logo" href="/">
                         <img src={Logo} alt="Logo"/>
                     </a>
             <nav className="header__nav">

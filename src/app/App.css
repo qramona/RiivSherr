@@ -16,4 +16,29 @@ button{
 }
 input{
     outline: none;
+    color: black;
+}
+.wrapper{
+    width: 1600px;
+    max-width: 97%;
+    justify-self: center;
+    margin: 6dvh;
+}
+@media screen and (min-width: 1600px) {
+
+}
+@media screen and (max-width: 1600px) {
+
+}
+@media screen and (max-width: 1200px) {
+
+}
+@media screen and (max-width: 992px) {
+
+}
+@media screen and (max-width: 768px) {
+
+}
+@media screen and (max-width: 576px) {
+
 }
