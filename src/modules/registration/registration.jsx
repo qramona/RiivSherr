@@ -4,7 +4,7 @@ import "./registration.css";
 function Registration(){
     return(
         <>
-            <Header></Header>
+            <Header/>
             <section className="registration">
                 <div className="wrapper">
                 <div className="registration__wrapper">

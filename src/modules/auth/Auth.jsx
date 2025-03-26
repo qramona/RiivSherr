@@ -4,7 +4,7 @@ import registration from "../registration/registration.jsx";
 function Auth(){
     return(
         <>
-            <Header></Header>
+           <Header/>
 
             <section className="Auth">
                 <div className="wrapper">

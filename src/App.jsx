@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './app/App.css'
-import Admin from "./pages/AdminsPage/Admin.jsx";
+import Admin from "./pages/AdminsPage/Admin";
 import Auth from "./modules/auth/Auth";
-import Registration from "./modules/registration/registration.jsx";
+import Registration from "./modules/registration/registration";
 
 
 function App() {

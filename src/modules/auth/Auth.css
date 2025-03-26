@@ -46,12 +46,7 @@
     border-radius: 5px;
     font-size: 18px;
 }
-#Login{
 
-}
-#Password{
-
-}
 .resetPassword{
     padding: 0.5em;
     color: grey;
@@ -104,15 +99,7 @@
     .Auth__form{
 
     }
-    #Passenger{
 
-    }
-    #Login{
-
-    }
-    #Password{
-
-    }
     .resetPassword{
 
     }
@@ -151,15 +138,7 @@
     .Auth__form{
 
     }
-    #Passenger{
 
-    }
-    #Login{
-
-    }
-    #Password{
-
-    }
     .resetPassword{
 
     }
@@ -198,13 +177,10 @@
     .Auth__form{
         font-size: 12px;
     }
+    .Auth__input{
+        font-size: 12px;
+    }
 
-    #Login{
-        font-size: 12px;
-    }
-    #Password{
-        font-size: 12px;
-    }
     .resetPassword{
 
     }
@@ -243,15 +219,7 @@
     .Auth__form{
 
     }
-    #Passenger{
 
-    }
-    #Login{
-
-    }
-    #Password{
-
-    }
     .resetPassword{
 
     }
@@ -295,15 +263,7 @@
     .Auth__form{
 
     }
-    #Passenger{
 
-    }
-    #Login{
-
-    }
-    #Password{
-
-    }
     .resetPassword{
 
     }
@@ -342,15 +302,7 @@
     .Auth__form{
 
     }
-    #Passenger{
 
-    }
-    #Login{
-
-    }
-    #Password{
-
-    }
     .resetPassword{
 
     }
