@@ -5,8 +5,8 @@ a{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    max-width: 100%;
+    justify-content: space-between;
+    max-width: 97%;
     width: 1600px;
     justify-self: center;
 }

@@ -1,0 +1,315 @@
+.Auth{
+
+}
+.Auth__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Auth__block{
+    width: 47%;
+}
+.Auth__block1{
+
+}
+.Auth__title{
+    font-size: 60px;
+    font-weight: 300;
+}
+.Auth__subtitle{
+    font-size: 32px;
+    font-weight: 300;
+}
+.Auth__block2{
+    display: flex;
+    flex-direction: column;
+
+}
+.block2__wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 2em;
+    background: #EFEFEF;
+}
+.Auth__form{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+.Auth__input{
+    margin: 0.5em 0;
+    padding: 0.5em;
+    background: rgba(201, 201, 201, 100%);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.resetPassword{
+    padding: 0.5em;
+    color: grey;
+    font-weight: 300;
+}
+.Auth-btn{
+    background: black;
+    border-radius: 10px;
+    color: #fff;
+    padding: 0.7em;
+    font-size: 18px;
+    cursor: pointer;
+}
+.Registr__link{
+
+}
+.Registr__link>a{
+    font-weight: 300;
+    color: grey;
+}
+.Registr__link>a:hover{
+    border-bottom: black solid 1px;
+}
+@media screen and (min-width: 1600px) {
+
+    .Auth{
+
+    }
+    .Auth__wrapper{
+
+    }
+    .Auth__block{
+
+    }
+    .Auth__block1{
+
+    }
+    .Auth__title{
+
+    }
+    .Auth__subtitle{
+
+    }
+    .Auth__block2{
+
+    }
+    .block2__wrapper{
+
+    }
+    .Auth__form{
+
+    }
+
+    .resetPassword{
+
+    }
+    .Auth-btn{
+
+    }
+    .Registr__link{
+
+    }
+}
+@media screen and (max-width: 1600px) {
+    .Auth{
+
+    }
+    .Auth__wrapper{
+
+    }
+    .Auth__block{
+
+    }
+    .Auth__block1{
+
+    }
+    .Auth__title{
+
+    }
+    .Auth__subtitle{
+
+    }
+    .Auth__block2{
+
+    }
+    .block2__wrapper{
+
+    }
+    .Auth__form{
+
+    }
+
+    .resetPassword{
+
+    }
+    .Auth-btn{
+
+    }
+    .Registr__link{
+
+    }
+}
+@media screen and (max-width: 1200px) {
+    .Auth{
+
+    }
+    .Auth__wrapper{
+
+    }
+    .Auth__block{
+
+    }
+    .Auth__block1{
+
+    }
+    .Auth__title{
+        font-size: 30px;
+    }
+    .Auth__subtitle{
+        font-size: 20px;
+    }
+    .Auth__block2{
+
+    }
+    .block2__wrapper{
+
+    }
+    .Auth__form{
+        font-size: 12px;
+    }
+    .Auth__input{
+        font-size: 12px;
+    }
+
+    .resetPassword{
+
+    }
+    .Auth-btn{
+        font-size: 12px;
+    }
+    .Registr__link{
+
+    }
+}
+@media screen and (max-width: 992px) {
+    .Auth{
+
+    }
+    .Auth__wrapper{
+
+    }
+    .Auth__block{
+
+    }
+    .Auth__block1{
+
+    }
+    .Auth__title{
+
+    }
+    .Auth__subtitle{
+
+    }
+    .Auth__block2{
+
+    }
+    .block2__wrapper{
+
+    }
+    .Auth__form{
+
+    }
+
+    .resetPassword{
+
+    }
+    .Auth-btn{
+
+    }
+    .Registr__link{
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .Auth{
+
+    }
+    .Auth__wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Auth__block{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .Auth__block1{
+
+    }
+    .Auth__title{
+
+    }
+    .Auth__subtitle{
+
+    }
+    .Auth__block2{
+
+    }
+    .block2__wrapper{
+        width: 45dvw;
+    }
+    .Auth__form{
+
+    }
+
+    .resetPassword{
+
+    }
+    .Auth-btn{
+
+    }
+    .Registr__link{
+
+    }
+}
+@media screen and (max-width: 576px) {
+    .Auth{
+
+    }
+    .Auth__wrapper{
+
+    }
+    .Auth__block{
+
+    }
+    .Auth__block1{
+
+    }
+    .Auth__title{
+
+    }
+    .Auth__subtitle{
+
+    }
+    .Auth__block2{
+
+    }
+    .block2__wrapper{
+        width: 70dvw;
+    }
+    .Auth__form{
+
+    }
+
+    .resetPassword{
+
+    }
+    .Auth-btn{
+
+    }
+    .Registr__link{
+
+    }
+}
