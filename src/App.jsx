@@ -7,7 +7,7 @@ import Registration from './modules/registration/registration'
 
 function App() {
     return (
-        <Router>
+        <Router basename="/RiivSherr">
             <Routes>
                 <Route path="/" element={<Auth />} />
                 <Route path="registration" element={<Registration />}></Route>
