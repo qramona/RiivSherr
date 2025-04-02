@@ -60,7 +60,14 @@ header{
 .CloseLogo, .BurgerLogo{
     display: none;
 }
-
+.header__subtitles-ul{
+    opacity: 0;
+    display: none;
+}
+.headder__subtitle-ul.active{
+    opacity: 1;
+    display: block;
+}
 @media screen and (min-width: 1600px) {
 
     header{

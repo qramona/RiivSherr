@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import './app/App.css'
 import Admin from './pages/AdminsPage/Admin'
 import Auth from './modules/auth/Auth'

@@ -25,6 +25,17 @@ function Header() {
                                 alt="Down button"
                             />
                         </button>
+                        <ul className="header__subtitles-ul">
+                            <li className="li__subtitle">
+                                <a href="#">Услуга 1</a>
+                            </li>
+                            <li className="li__subtitle">
+                                <a href="#">Услуга 2</a>
+                            </li>
+                            <li className="li__subtitle">
+                                <a href="#">Услуга 3</a>
+                            </li>
+                        </ul>
                     </li>
                     <li className="header__li">
                         <a href="src/components/Layouts/Header#">Расписание</a>
@@ -36,6 +47,17 @@ function Header() {
                                 alt="Down button"
                             />
                         </button>
+                        <ul className="header__subtitles-ul">
+                            <li className="li__subtitle">
+                                <a href="#">Расписание 1</a>
+                            </li>
+                            <li className="li__subtitle">
+                                <a href="#">Расписание 2</a>
+                            </li>
+                            <li className="li__subtitle">
+                                <a href="#">Расписание 3</a>
+                            </li>
+                        </ul>
                     </li>
                     <li className="header__li">
                         <a href="src/components/Layouts/Header#">О нас</a>
@@ -47,6 +69,18 @@ function Header() {
                                 alt="Down button"
                             />
                         </button>
+
+                        <ul className="header__subtitles-ul">
+                            <li className="li__subtitle">
+                                <a href="#">О нас 1</a>
+                            </li>
+                            <li className="li__subtitle">
+                                <a href="#">О нас 2</a>
+                            </li>
+                            <li className="li__subtitle">
+                                <a href="#">О нас 3</a>
+                            </li>
+                        </ul>
                     </li>
                     <li className="header__li">
                         <a href="src/components/Layouts/Header#">
@@ -60,6 +94,17 @@ function Header() {
                                 alt="Down button"
                             />
                         </button>
+                        <ul className="header__subtitles-ul">
+                            <li className="li__subtitle">
+                                <a href="#">Контакты и поддержка 1</a>
+                            </li>
+                            <li className="li__subtitle">
+                                <a href="#">Контакты и поддержка 2</a>
+                            </li>
+                            <li className="li__subtitle">
+                                <a href="#">Контакты и поддержка 3</a>
+                            </li>
+                        </ul>
                     </li>
                     <li className="header__li">
                         <a href="src/components/Layouts/Header#">Новости</a>
