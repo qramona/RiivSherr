@@ -2,12 +2,31 @@ import Logo from '../../../assets/icons/Logo.png'
 import Up from '../../../assets/icons/Up.png'
 import Down from '../../../assets/icons/Down.png'
 import '../../../components/BurgerMenu/Burger.css'
+import { useEffect, useRef } from 'react'
 import BurgerLogo from '../../../assets/buttons/BurgerLogo.png'
 import CloseLogo from '../../../assets/buttons/CloseLogo.png'
 import './Header.css'
 import Burger from '../../BurgerMenu/Burger.jsx'
 
 function Header() {
+    // const headerTitles = document.querySelectorAll('.header__titles')
+    // const handleSubtitleClick = function (e, index) {
+    //     e.preventDefault()
+    //     index.style.display = 'none'
+    // }
+
+    const handleSubtitleClick = (e) => {
+        e.preventDefault()
+        const currentMenu = e.currentTarget
+            .closest('.header__li')
+            .querySelector('.header__subtitles-ul')
+
+        document.querySelectorAll('.header__subtitles-ul').forEach((menu) => {
+            menu.classList.remove('active')
+        })
+        currentMenu.classList.toggle('active')
+    }
+
     return (
         <header className="Header">
             <a className="Logo" href="/">
@@ -16,7 +35,13 @@ function Header() {
             <nav className="header__nav">
                 <ul className="header__ul">
                     <li className="header__li">
-                        <a href="src/components/Layouts/Header#">Услуги</a>
+                        <a
+                            className="header__titles"
+                            href="src/components/Layouts/Header#"
+                            onClick={handleSubtitleClick}
+                        >
+                            Услуги
+                        </a>
                         <button className="button-up">
                             <img className="up-img" src={Up} alt="Up button" />
                             <img
@@ -38,7 +63,13 @@ function Header() {
                         </ul>
                     </li>
                     <li className="header__li">
-                        <a href="src/components/Layouts/Header#">Расписание</a>
+                        <a
+                            className="header__titles"
+                            href="src/components/Layouts/Header#"
+                            onClick={handleSubtitleClick}
+                        >
+                            Расписание
+                        </a>
                         <button className="button-up">
                             <img className="up-img" src={Up} alt="Up button" />
                             <img
@@ -60,7 +91,13 @@ function Header() {
                         </ul>
                     </li>
                     <li className="header__li">
-                        <a href="src/components/Layouts/Header#">О нас</a>
+                        <a
+                            className="header__titles"
+                            href="src/components/Layouts/Header#"
+                            onClick={handleSubtitleClick}
+                        >
+                            О нас
+                        </a>
                         <button className="button-up">
                             <img className="up-img" src={Up} alt="Up button" />
                             <img
@@ -83,7 +120,11 @@ function Header() {
                         </ul>
                     </li>
                     <li className="header__li">
-                        <a href="src/components/Layouts/Header#">
+                        <a
+                            className="header__titles"
+                            href="src/components/Layouts/Header#"
+                            onClick={handleSubtitleClick}
+                        >
                             Контакты и поддержка
                         </a>
                         <button className="button-up">
