@@ -9,12 +9,6 @@ import './Header.css'
 import Burger from '../../BurgerMenu/Burger.jsx'
 
 function Header() {
-    // const headerTitles = document.querySelectorAll('.header__titles')
-    // const handleSubtitleClick = function (e, index) {
-    //     e.preventDefault()
-    //     index.style.display = 'none'
-    // }
-
     const handleSubtitleClick = (e) => {
         e.preventDefault()
         const currentMenu = e.currentTarget
