@@ -1,4 +1,4 @@
-import Header from '../../components/Layouts/Header/Header.jsx'
+import Header from '@/components/Layouts/Header/Header.jsx'
 import './registration.css'
 
 function Registration() {
