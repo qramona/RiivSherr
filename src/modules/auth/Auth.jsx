@@ -1,6 +1,7 @@
 import Header from '@/components/Layouts/Header/Header.jsx'
 import './Auth.css'
 import registration from '../registration/registration.jsx'
+import { Link } from 'react-router-dom'
 function Auth() {
     return (
         <>
@@ -33,17 +34,17 @@ function Auth() {
                                         type="text"
                                         placeholder="Пароль"
                                     />
-                                    <a href="#" className="resetPassword">
+                                    <Link to="/" className="resetPassword">
                                         Забыли Пароль?
-                                    </a>
+                                    </Link>
                                     <button type="submit" className="Auth-btn">
                                         Войти
                                     </button>
                                     <p className="Registr__link">
                                         Еще нет аккаунта?{' '}
-                                        <a href="../registration">
+                                        <Link to="/registration">
                                             Зарегестрируйтесь
-                                        </a>
+                                        </Link>
                                     </p>
                                 </form>
                             </div>
