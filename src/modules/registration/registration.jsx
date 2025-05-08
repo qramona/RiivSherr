@@ -1,5 +1,6 @@
 import Header from '@/components/Layouts/Header/Header.jsx'
 import './registration.css'
+import { Link } from 'react-router-dom'
 
 function Registration() {
     return (
@@ -37,7 +38,7 @@ function Registration() {
                                 Зарегестрироваться
                             </button>
                             <p className="alreadyRegistered">
-                                Уже зарегестрированы? <a href="/">Войти</a>
+                                Уже зарегестрированы? <Link to="/">Войти</Link>
                             </p>
                         </form>
                     </div>

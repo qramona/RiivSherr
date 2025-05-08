@@ -7,6 +7,7 @@ import BurgerLogo from '@/assets/buttons/BurgerLogo.png'
 import CloseLogo from '@/assets/buttons/CloseLogo.png'
 import './Header.css'
 import Burger from '../../BurgerMenu/Burger.jsx'
+import { Link } from 'react-router-dom'
 
 function Header() {
     const handleSubtitleClick = (e) => {
@@ -23,24 +24,24 @@ function Header() {
 
     return (
         <header className="Header">
-            <a className="Logo" href="/">
+            <Link className="Logo" to="/">
                 <img src={Logo} alt="Logo" />
-            </a>
+            </Link>
             <nav className="header__nav">
                 <ul className="header__ul">
-                    <button className="uk-button" type="button">
+                    <button className="uk-button header__button" type="button">
                         Услуги
                     </button>
                     <div data-uk-dropdown="mode: click">
                         <ul className="uk-nav uk-dropdown-nav">
                             <li className="li__subtitle">
-                                <a href="#">Услуга 1</a>
+                                <Link to="#">Услуга 1</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 2</a>
+                                <Link to="#">Услуга 2</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 3</a>
+                                <Link to="#">Услуга 3</Link>
                             </li>
                         </ul>
                     </div>
@@ -51,30 +52,13 @@ function Header() {
                     <div data-uk-dropdown="mode: click">
                         <ul className="uk-nav uk-dropdown-nav">
                             <li className="li__subtitle">
-                                <a href="#">Услуга 1</a>
+                                <Link to="#">Услуга 1</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 2</a>
+                                <Link to="#">Услуга 2</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 3</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <button className="uk-button" type="button">
-                        Услуги
-                    </button>
-                    <div data-uk-dropdown="mode: click">
-                        <ul className="uk-nav uk-dropdown-nav">
-                            <li className="li__subtitle">
-                                <a href="#">Услуга 1</a>
-                            </li>
-                            <li className="li__subtitle">
-                                <a href="#">Услуга 2</a>
-                            </li>
-                            <li className="li__subtitle">
-                                <a href="#">Услуга 3</a>
+                                <Link to="#">Услуга 3</Link>
                             </li>
                         </ul>
                     </div>
@@ -85,13 +69,30 @@ function Header() {
                     <div data-uk-dropdown="mode: click">
                         <ul className="uk-nav uk-dropdown-nav">
                             <li className="li__subtitle">
-                                <a href="#">Услуга 1</a>
+                                <Link to="#">Услуга 1</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 2</a>
+                                <Link to="#">Услуга 2</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 3</a>
+                                <Link to="#">Услуга 3</Link>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <button className="uk-button" type="button">
+                        Услуги
+                    </button>
+                    <div data-uk-dropdown="mode: click">
+                        <ul className="uk-nav uk-dropdown-nav">
+                            <li className="li__subtitle">
+                                <Link to="#">Услуга 1</Link>
+                            </li>
+                            <li className="li__subtitle">
+                                <Link to="#">Услуга 2</Link>
+                            </li>
+                            <li className="li__subtitle">
+                                <Link to="#">Услуга 3</Link>
                             </li>
                         </ul>
                     </div>
@@ -197,13 +198,13 @@ function Header() {
                     <div data-uk-dropdown="mode: click">
                         <ul className="uk-nav uk-dropdown-nav">
                             <li className="li__subtitle">
-                                <a href="#">Услуга 1</a>
+                                <Link to="#">Услуга 1</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 2</a>
+                                <Link to="#">Услуга 2</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 3</a>
+                                <Link to="#">Услуга 3</Link>
                             </li>
                         </ul>
                     </div>
