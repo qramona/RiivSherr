@@ -24,9 +24,9 @@ function Header() {
 
     return (
         <header className="Header">
-            <a className="Logo" href="/">
+            <Link className="Logo" to="/">
                 <img src={Logo} alt="Logo" />
-            </a>
+            </Link>
             <nav className="header__nav">
                 <ul className="header__ul">
                     <button className="uk-button header__title" type="button">
@@ -35,13 +35,13 @@ function Header() {
                     <div data-uk-dropdown="mode: click">
                         <ul className="uk-nav uk-dropdown-nav">
                             <li className="li__subtitle">
-                                <a href="#">Услуга 1</a>
+                                <Link to="#">Услуга 1</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 2</a>
+                                <Link to="#">Услуга 2</Link>
                             </li>
                             <li className="li__subtitle">
-                                <a href="#">Услуга 3</a>
+                                <Link to="#">Услуга 3</Link>
                             </li>
                         </ul>
                     </div>

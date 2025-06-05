@@ -25,6 +25,9 @@ header{
     align-items: center;
     width: auto;
 }
+.header__button{
+    font-size: 12px;
+}
 .header__nav{
     display: flex;
     flex-direction: row;
