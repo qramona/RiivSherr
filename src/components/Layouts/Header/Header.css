@@ -2,6 +2,9 @@ a{
     color: black;
     text-decoration: none;
 }
+input:focus{
+    outline: none;
+}
 button{
     cursor: pointer;
 }
@@ -29,18 +32,29 @@ header{
     width: 80%;
 
 }
+.header__title,.header__input,.header__userProfile{
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: 300;
+    color: black;
+    border: none;
+    text-transform: none;
+}
+
+.header__li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
 .header__ul{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     padding: 0;
+    margin: 0;
 }
-.header__li{
 
-}
-.header__li a{
-
-}
 .button-up{
 
 }
@@ -56,6 +70,7 @@ header{
     background: url("/Users/yuliiapodlutskaia/module-arc/src/assets/icons/Loup.png");
     background-repeat: no-repeat;
     background-position: right;padding-right: 2em;
+    background-size: contain;
 }
 .burger__menu{
     display: none;
@@ -72,6 +87,12 @@ header{
 .header__subtitles-ul.active {
     display: block;
     opacity: 1;
+}
+.header__userProfile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 @media screen and (min-width: 1600px) {
@@ -92,10 +113,7 @@ header{
     .header__ul{
 
     }
-    .header__li{
-
-    }
-    .header__li a{
+    .header__title{
 
     }
     .button-up{
@@ -131,11 +149,9 @@ header{
     .header__ul{
 
     }
-    .header__li{
-
-    }
-    .header__li a{
-
+    .header__title,.header__input{
+        font-size: 13px;
+        padding: 0 0.5em;
     }
     .button-up{
 
@@ -172,12 +188,10 @@ header{
     .header__ul{
 
     }
-    .header__li{
+    .header__title,.header__input{
+        font-size: 11px;
+    }
 
-    }
-    .header__li a{
-        font-size: 12px;
-    }
     .button-up{
 
     }
@@ -209,11 +223,9 @@ header{
     .header__ul{
 
     }
-    .header__li{
-
-    }
-    .header__li a{
-        font-size: 10px;
+    .header__title,.header__input{
+        font-size: 9px;
+        padding: 0.5em 0;
     }
     .button-up{
 
@@ -227,14 +239,12 @@ header{
     .down-img{
 
     }
-    .header__input{
-        font-size: 11px;
-    }
+
 }
 @media screen and (max-width: 768px) {
 
-    header{
-
+    Header{
+        padding: 0.5em 0;
     }
     .header__wrapper{
 
@@ -247,13 +257,13 @@ header{
 
     }
     .header__ul{
-
+        margin: 0;
     }
-    .header__li{
+    .header__title{
         display: none;
     }
-    .header__li a{
-
+    .header__userProfile{
+        display: none;
     }
     .button-up{
 
@@ -266,7 +276,10 @@ header{
     }
     .header__input{
         display: flex;
-        padding-right: 2em;
+        padding: 0.5em;
+    }
+    .header__li{
+
     }
     .input{
         display: flex;
@@ -336,10 +349,7 @@ header{
     .header__ul{
 
     }
-    .header__li{
-
-    }
-    .header__li a{
+    .header__title{
 
     }
     .button-up{

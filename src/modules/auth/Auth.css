@@ -61,14 +61,18 @@
     cursor: pointer;
 }
 .Registr__link{
-
 }
 .Registr__link>a{
     font-weight: 300;
     color: grey;
+    border: none;
 }
 .Registr__link>a:hover{
-    border-bottom: black solid 1px;
+    border: none;
+}
+.error-message{
+    padding: 0.5em 0;
+    margin: inherit;
 }
 @media screen and (min-width: 1600px) {
 
