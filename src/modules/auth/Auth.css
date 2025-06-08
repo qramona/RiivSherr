@@ -1,6 +1,11 @@
 .Auth{
 
 }
+.Auth__form>input{
+    border: none;
+    padding: 0.5em;
+    margin: 0.5em;
+}
 .Auth__wrapper{
     display: flex;
     flex-direction: row;
