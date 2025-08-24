@@ -1,0 +1,243 @@
+.userPage__wrapper{
+   display: flex;
+    flex-direction: row;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 4dvw;
+
+}
+.userPage__block{
+    width: 50%;
+    height: 43dvh;
+
+}
+.userPage__block1{
+    background: white;
+    align-content: center;
+}
+.userPage__block2{
+    width: 50dvw;
+
+}
+.userPage__block>iframe{
+    width: 100%;
+}
+.userPage__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.userPage__form-wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5em;
+
+}
+.userPage__form-wrapper>img{
+    padding: 0 0.5em;
+    width: 3dvw;
+}
+.userPage__input{
+    width: 50dvw;
+    padding: 0.5em;
+    border-radius: 10px;
+    border: none;
+    background: rgba(201, 201, 201, 0.6);
+}
+.userPage__button{
+    background: black;
+    color: white;
+    padding: 0.7em;
+    margin: 0.5em 0;
+    align-self: center;
+    width: 30dvw;
+    border-radius: 10px;
+    transition: 1s;
+}
+.userPage__button:hover{
+    background:  white;
+    color: black;
+}
+@media screen and (min-width: 1600px) {
+    .userPage__wrapper{
+        max-width: 1400px;
+        justify-self: center;
+    }
+    .userPage__block{
+
+    }
+    .userPage__block1{
+
+    }
+    .userPage__form{
+
+    }
+    .userPage__form-wrapper{
+
+    }
+    .userPage__form-wrapper>img{
+
+    }
+    .userPage__form-wrapper>input{
+
+    }
+    .userPage__input{
+
+    }
+    .userPage__button{
+
+    }
+}
+@media screen and (max-width: 1600px) {
+    .userPage__wrapper{
+        max-width: 1400px;
+
+    }
+    .userPage__block{
+
+    }
+    .userPage__block1{
+
+    }
+    .userPage__form{
+
+    }
+    .userPage__form-wrapper{
+
+    }
+    .userPage__form-wrapper>img{
+
+    }
+    .userPage__form-wrapper>input{
+
+    }
+    .userPage__input{
+
+    }
+    .userPage__button{
+
+    }
+}
+@media screen and (max-width: 1200px) {
+    .userPage__wrapper{
+
+    }
+    .userPage__block{
+
+    }
+    .userPage__block1{
+
+    }
+    .userPage__form{
+
+    }
+    .userPage__form-wrapper{
+
+    }
+    .userPage__form-wrapper>img{
+
+    }
+    .userPage__form-wrapper>input{
+
+    }
+    .userPage__input{
+
+    }
+    .userPage__button{
+
+    }
+}
+@media screen and (max-width: 992px) {
+    .userPage__wrapper{
+
+    }
+    .userPage__block{
+
+    }
+    .userPage__block1{
+
+    }
+    .userPage__form{
+
+    }
+    .userPage__form-wrapper{
+
+    }
+    .userPage__form-wrapper>img{
+
+    }
+    .userPage__form-wrapper>input{
+
+    }
+    .userPage__input{
+
+    }
+    .userPage__button{
+
+    }
+}
+@media screen and (max-width: 768px) {
+    .userPage__wrapper{
+        flex-direction: column;
+    }
+    .userPage__block{
+        height: 45%;
+        width: 100dvw;
+        display: flex;
+        justify-content: center;
+        margin: 0 2dvw;
+    }
+    .userPage__block1{
+
+    }
+    .userPage__form{
+
+    }
+    .userPage__form-wrapper{
+
+    }
+    .userPage__form-wrapper>img{
+
+     }
+    .userPage__form-wrapper>input{
+
+    }
+    .userPage__input{
+
+    }
+    .userPage__button{
+
+    }
+}
+@media screen and (max-width: 576px) {
+    .userPage__wrapper{
+
+    }
+    .userPage__block{
+
+    }
+    .userPage__block1{
+
+    }
+    .userPage__form{
+
+    }
+    .userPage__form-wrapper{
+
+    }
+    .userPage__form-wrapper>img{
+
+    }
+    .userPage__form-wrapper>input{
+
+    }
+    .userPage__input{
+
+    }
+    .userPage__button{
+
+    }
+}
